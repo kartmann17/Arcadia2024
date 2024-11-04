@@ -34,6 +34,10 @@ Explication de la mise en place du projet et des technologies utilisé:
 -Pour ce projet j'ai utilisé composer pour la gestion des dépendances
 
 
+
+
+
+
 Instalation et deploiement du projet:
 git clone https://github.com/kartmann17/Arcadia2024.git
 
