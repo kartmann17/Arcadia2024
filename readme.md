@@ -35,7 +35,7 @@ Explication de la mise en place du projet et des technologies utilisé:
 
 
 Instalation et deploiement du projet:
-git clone https://github.com/
+git clone https://github.com/kartmann17/Arcadia2024.git
 
 composer install
 
