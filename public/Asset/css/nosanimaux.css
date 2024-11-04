@@ -1,0 +1,39 @@
+body {
+  background-color: #38453a;
+}
+
+h1 {
+  color: #fff;
+}
+
+.vide {
+  height: 60vh;
+}
+
+.card-body {
+  height: 15rem;
+  margin-top: 10px;
+}
+
+.card-body h5, .card-body p {
+  font-family: 'Roboto Serif', serif;
+}
+
+.card img {
+  height: 191px;
+  object-fit: cover;
+}
+
+.btm{
+  background-color: #f78f2e;
+  color: white;
+}
+
+
+.modal-body span {
+  font-family: roboto, serif;
+}
+
+
+
+

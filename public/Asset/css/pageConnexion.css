@@ -1,0 +1,58 @@
+.vide {
+  height: 60vh;
+}
+
+body {
+  background: url(/Asset/Images/jaguar.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.formContainer {
+  padding: 24px;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.formContainer input {
+  height: 48px;
+  background: #38453a;
+  border: none;
+}
+
+.btn-accent:active {
+  box-shadow: 0px 0px 2px #f78f2e;
+}
+
+.formContainer input:focus {
+  box-shadow: 0px 0px 2px #f78f2e;
+  background-color: #38453a;
+}
+
+.inputLogo {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 18px;
+  color: #fff
+}
+
+
+.btn-accent {
+  background-color: #f78f2e;
+  height: 48px;
+  color: #fff;
+  border: none;
+}
+
+::placeholder {
+  color: #fff !important
+}

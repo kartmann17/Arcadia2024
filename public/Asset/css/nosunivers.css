@@ -1,0 +1,83 @@
+
+body {
+  background: url(/Asset/Images/foret.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.vide {
+  height: 70vh;
+}
+
+
+h2 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 20px 0;
+  font-size: 2.5rem;
+  line-height: 1.2;
+
+}
+
+
+
+.texte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.texte p {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  font-size: 1.875rem;
+  line-height: 1.6;
+  font-weight: 400;
+  margin: 0;
+  padding: 10px;
+  font-family: "Roboto Serif", serif;
+}
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
+
+  .texte p {
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .vide {
+    height: 60vh;
+  }
+}

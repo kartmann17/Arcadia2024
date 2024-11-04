@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "67091f765e56f7c30db22962"
+  },
+  "jour": "Lundi",
+  "ouverture": "08h30",
+  "fermeture": "18h30"
+},
+{
+  "_id": {
+    "$oid": "67091f765e56f7c30db22963"
+  },
+  "jour": "Mardi",
+  "ouverture": "08h30",
+  "fermeture": "18h30"
+},
+{
+  "_id": {
+    "$oid": "67091f765e56f7c30db22964"
+  },
+  "jour": "Mercredi",
+  "ouverture": "08h30",
+  "fermeture": "18h30"
+},
+{
+  "_id": {
+    "$oid": "67091f765e56f7c30db22965"
+  },
+  "jour": "Jeudi",
+  "ouverture": "08h30",
+  "fermeture": "18h30"
+},
+{
+  "_id": {
+    "$oid": "67091f765e56f7c30db22966"
+  },
+  "jour": "Vendredi",
+  "ouverture": "08h30",
+  "fermeture": "18h30"
+},
+{
+  "_id": {
+    "$oid": "67091f765e56f7c30db22967"
+  },
+  "jour": "Samedi",
+  "ouverture": "08h30",
+  "fermeture": "22h00"
+},
+{
+  "_id": {
+    "$oid": "67091f765e56f7c30db22968"
+  },
+  "jour": "Dimanche",
+  "ouverture": "Fermé"
+}]
+
+
+

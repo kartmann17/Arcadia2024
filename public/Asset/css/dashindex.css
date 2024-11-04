@@ -1,0 +1,369 @@
+* {
+  font-family: "Roboto Serif";
+}
+
+.vide {
+  height: 50vh;
+}
+
+.dash {
+  height: 100vh;
+}
+
+body {
+  background: url(/Asset/Images/jaguar.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  color: #f78f2e;
+  font-family: "Pacifico", cursive;
+}
+
+.admin-space {
+  width: 60%;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #ced4da;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+}
+
+
+.admin-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.admin-link {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #38453a;
+  color: white;
+  font-family: "Roboto Serif";
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.admin-link:hover {
+  background-color: #f78f2e;
+}
+
+@media (max-width: 768px) {
+  .admin-link-container {
+      text-align: center;
+  }
+
+  .admin-link {
+      font-size: 14px;
+      padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .admin-link-container {
+      margin-bottom: 15px;
+  }
+
+  .admin-link {
+      font-size: 12px;
+      padding: 8px;
+  }
+}
+
+.admin-link-container {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .admin-link {
+    font-size: 14px;
+  }
+}
+
+/* page liste rapport  */
+.rapport-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow-x: auto;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+
+/* page liste service  */
+.service-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow-x: auto;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table .img-thumbnail {
+  max-width: 80px;
+  height: auto;
+  object-fit: cover;
+}
+
+.table .btn-sm {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.text-end {
+  margin-top: 20px;
+}
+
+
+
+/* page liste animaux */
+.animaux-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow-x: auto;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.table img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-thumbnail {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+
+
+/*page liste avis*/
+.avis-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow-x: auto;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table .btn-sm {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.text-end {
+  margin-top: 20px;
+}
+
+
+
+/* page liste univers */
+.univers-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow-x: auto;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table .img-thumbnail {
+  max-width: 80px;
+  height: auto;
+  object-fit: cover;
+}
+
+.table .btn-sm {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.text-end {
+  margin-top: 20px;
+}
+
+
+/* page liste users */
+.users-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow-x: auto;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table .btn-sm {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.text-end {
+  margin-top: 20px;
+}
+
+/* page liste horaire */
+.horaires-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow-x: auto;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* page liste race  */
+
+.races-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow-x: auto;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table .btn-sm {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.text-end {
+  margin-top: 20px;
+}
+
+/* page de tous les updates */
+.container {
+  max-width: 100%;/
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-control,
+.form-select {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .card-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+  }
+}

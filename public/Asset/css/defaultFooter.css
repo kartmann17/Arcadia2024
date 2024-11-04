@@ -1,0 +1,31 @@
+ /* Début footer  */
+ footer ul {
+     gap: 1%;
+ }
+
+ .nav-item a {
+     color: #fff;
+     font-family: roboto, serif;
+     text-align: center;
+     font-size: 20px;
+ }
+
+ .footer {
+     background-color: #f78f2e;
+     color: #fff;
+     height: auto;
+     font-size: 20px;
+     position: relative;
+     bottom: 0;
+ }
+
+ .footer p {
+     font-family: "Pacifico", cursive;
+ }
+
+ .bi {
+     color: #38453a;
+     align-items: center;
+ }
+
+ /* fin footer */

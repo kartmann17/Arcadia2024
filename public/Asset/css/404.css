@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(/Asset/Images/jaguar.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.game-container {
+    text-align: center;
+}
+#gameCanvas {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #ced4da;
+}
